@@ -2,7 +2,10 @@ cmake .(或在build目录下cmake ..)
 生成对应平台的的编译工程文件
   Linux下默认是makefile
   window下默认是vcxproj(或整个工程的sln)
-  也可制定特定的编译系统，如Nanja,bazel等
+  也可指定特定的编译系统，如Nanja,bazel等
   
 cmake --build .
 cmake调用系统对应的编译工程工具编译项目，生成可执行文件
+  在Linux下调用make
+  在windows下调用MSVC
+  制定情况下调用第三方编译工具
