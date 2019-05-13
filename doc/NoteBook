@@ -1,5 +1,5 @@
 cmake .(或在build目录下cmake ..)
-生成对用平台的的编译工程文件
+生成对应平台的的编译工程文件
   Linux下默认是makefile
   window下默认是vcxproj(或整个工程的sln)
   也可制定特定的编译系统，如Nanja,bazel等
