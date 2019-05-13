@@ -1,0 +1,4 @@
+
+SET(SRC_LIST main.cpp helloworld.cpp)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+ADD_EXECUTABLE(hello ${SRC_LIST})
